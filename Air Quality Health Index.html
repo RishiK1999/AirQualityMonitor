@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://weather.gc.ca/airquality/pages/index_e.html -->
+<html class="js backgroundsize borderimage csstransitions fontface svg details progressbar meter no-mathml cors largeview wb-enable" lang="en" dir="ltr"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+   <meta name="dcterms.creator" content="Environment Canada">
+	<meta name="dcterms.language" title="ISO639-2" content="eng">
+	<meta name="description" content="Summary of current values and forecast maximums">
+   <meta name="dcterms.subject" title="scheme" content="Meteorology; Air quality, Air pollution;">
+   <meta name="dcterms.issued" title="W3CDTF" content="2013-04-16">
+   <meta name="dcterms.modified" title="W3CDTF" content="2019-06-23"><title>Air Quality Health Index</title><meta name="dcterms.title" content="Air Quality Health Index"><!--[if gte IE 9 | !IE ]><!-->
+<!--<link rel="apple-touch-icon" sizes="57x57 72x72 114x114 144x144 150x150" class="wb-favicon" href="https://weather.gc.ca/template/gcweb/v5.0.1/assets/favicon-mobile.png"><link href="https://weather.gc.ca/template/gcweb/v5.0.1/assets/favicon.ico" rel="icon" type="image/x-icon" class="wb-init wb-favicon-inited">
+<link rel="stylesheet" href="./Air Quality Health Index_files/theme.min.css">
+<link rel="stylesheet" href="./Air Quality Health Index_files/jquery-ui-1.10.3.custom.min.css"> -->
+<!--<![endif]-->
+
+<noscript><link rel="stylesheet" href="/template/gcweb/v5.0.1/css/noscript.min.css" /></noscript>
+<link href="./Air Quality Health Index_files/airquality.css" rel="stylesheet"><link rel="stylesheet" href="./Air Quality Health Index_files/wxo.css">
+<link rel="stylesheet" href="./Air Quality Health Index_files/print-sm.css">
+<!--[if lte IE 9]><link rel="stylesheet" href="/v171w/css/wxotemplate/wxo-ie8.css" /><![endif]-->
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+
+<header>
+<div id="wb-bnr" class="container">
+	<section id="wb-lng" class="text-right">
+	<ul class="list-inline margin-bottom-none">
+	
+	</ul>
+	</section>
+	<div class="row">
+	<div class="brand col-xs-5 col-md-4">
+	<!-- <a href="https://www.canada.ca/en.html"><img src="./Air Quality Health Index_files/sig-blk-en.svg" alt=""><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>  -->
+   	
+	</form>
+        </section>
+	</div>
+</div> 
+<nav class="gcweb-menu wb-init gcweb-menu-inited" typeof="SiteNavigationElement" id="wb-auto-2">
+<div class="container">
+
+<ul role="menu" aria-orientation="vertical" data-ajax-replace="/data/pco-fetch/sitemenu-v5-en.html" class="wb-init wb-data-ajax-replace-inited" id="wb-auto-3">
+<!-- Web Experience Toolkit (WET) / BoÃƒÆ’Ã� â€™Ãƒâ€šÃ‚Â®te ÃƒÆ’Ã� â€™  outils de l'expÃƒÆ’Ã� â€™Ãƒâ€šÃ‚Â©rience Web (BOEW)
+wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html --><!-- DataAjaxFragmentStart -->
+
+</ul>
+</div>
+</nav>
+<nav id="wb-bc" property="breadcrumb">
+<div class="container">
+<ol class="breadcrumb">
+
+</ol>
+</div>
+</nav>
+</header>
+<!-- 4127 -->
+<div class="container hidden-print">
+<div class="mrgn-tp-sm">
+   <form class="mrgn-rght-sm pull-right mrgn-bttm-lg" role="search" id="cityjump" method="GET" action="https://weather.gc.ca/city/jump_e.html" data-h5-instanceid="0" novalidate="novalidate">
+     
+      <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input id="city" type="text" name="city" pattern=".{2,50}" title="Please enter at least two characters (Up to 50)" required="" data-h5-errorid="invalid-city" placeholder="" class="ui-autocomplete-input" autocomplete="off" style="display: none;">
+      <input type="hidden" name="lang" value="e">
+      <input type="hidden" name="unit" value="">
+      <input type="submit" id="jump" class="btn btn-default btn-sm" value="Go" style="display: none;">
+      <noscript><input type="submit" id="jumpnojs" value="Go" formnovalidate/></noscript>
+   <div id="invalid-city"></div>
+</form> 
+
+
+<h3>Please Select a City and Pollutant From the Dropdown Menus</h3>
+<select>
+      <option value="" disabled selected>City</option>
+      <option value="Mississauga">Mississauga</option>
+      <option value="Toronto Downtown">Toronto Downtown</option>
+      <option value="Toronto East">Toronto East</option>
+      <option value="Toronto North">Toronto North</option>
+      <option value="Toronto West">Toronto West</option>
+    </select>
+
+<select>
+      <option value="" disabled selected>Pollutant</option>
+      <option value="Nitrogen Oxide">Nitrogen Oxide</option>
+      <option value="Nitrogen Dioxide">Nitrogen Dioxide</option>
+      <option value="Nitrogen Oxides">Nitrogen Oxides</option>
+      <option value="Particulate Matter">Particulate matter</option>
+      <option value="Ozone">Ozone</option>
+    </select>
+
+<h3>Please select a Day and Month</h3>
+<p>Note that the day and month are numeric integers (1-31 and 1-12 respectively).</p>
+<form>
+   Day:<br>
+   <input type="text" name="day">
+   <br>
+   Month:<br>
+   <input type="text" name="month">
+   <br>
+   <br>
+   <input type="submit" value="Submit" id="btn" onClick="submit_lol()"/>
+   </form>
+   <input type="text" name="confi" id="confi" value="Score" />
+  
+   <system.webServer>
+         ...
+         </modules>
+           <staticContent>
+             <remove fileExtension=".woff" />
+             <mimeMap fileExtension=".woff" mimeType="application/font-woff" />
+             <remove fileExtension=".woff2" />
+             <mimeMap fileExtension=".woff2" mimeType="font/woff2" />
+           </staticContent>    
+
+<!--WXO_PCO_BANNER_PLACEHOLDER-->
+<br>
+<br>
+<footer id="wb-info">
+      <div class="landscape">
+      <nav class="container wb-navcurr">
+      <h2 class="wb-inv">About Air Men</h2>
+      
+      <ul class="list-unstyled colcount-sm-2 colcount-md-2">
+      <li><a href="https://www.linkedin.com/in/rishikuhesan/">Contact Rishi Kuhesan</a></li>
+      <li><a href="https://github.com/rishik1999">Rishi Kuhesan Github</a></li>
+      <li><a href="https://www.linkedin.com/in/omairsandhu/">Contact Omair Sandhu</a></li>
+      <li><a href="https://www.linkedin.com/in/rehan-backer-2354a9153/">Contact Rehan Backer</a></li>
+      <li><a href="https://www.linkedin.com/in/peter-nguyen-473a8612b/">Contact Peter Nguyen</a></li>
+      
+      </ul>
+      </nav>
+      </div>
+      <div class="brand">
+      <div class="container">
+      <div class="row ">
+      <nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+   
+      </ul>
+      </nav>
+      <div class="col-xs-6 visible-sm visible-xs tofpg">
+      </div>
+      <div class="col-xs-6 col-md-3 col-lg-2 text-right">
+      <!--if you want to add an image, change the src file to direct to an existing image file ^-->
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer>
+         <script type="text/javascript">
+            var subscriptionKey = "c9msZbcQRWl2X+DK8lw8Ost9LYn+xnOhX0JkuFLBC50jmjSiwTgZbHHaGtzCrP2B7LSoAk83nOMHJecfclC4NQ==";
+            function submit_lol() {
+               var uriBase ="https://ussouthcentral.services.azureml.net/workspaces/67b27ca4d3414edfb0d3e8e6f7c468b5/services/e7f652fe6c0f47e08b1b22d413745e0a/execute?api-version=2.0&format=swagger";
+                  // Perform the REST API call.
+               $.ajax({
+                  url: uriBase,
+                  // Request headers.
+                  beforeSend: function(xhrObj){
+                        xhrObj.setRequestHeader("Content-Type","application/json");
+                        xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", subscriptionKey);
+                  },
+                  type: "POST",
+                  // Request body.
+                  data: JSON.stringify({
+  "Inputs": {
+    "input1": [
+      {
+        "City": 1,
+        "Pollutant": 1,
+        "Month": 1,
+        "Day": 1,
+        "Avg": 1
+      }
+    ]
+  },
+  "GlobalParameters": {}
+}),
+               })
+               .done(function(data) {
+               // Show formatted JSON on webpage.
+                  var str = JSON.stringify(data, null, 2);
+                  //faceID=str.substring(
+                  //str.lastIndexOf('eId": "') + 1, 
+                  //str.lastIndexOf('",')
+                  //);
+                  //faceID=faceID.substring(6);
+                  $("#confi").val(str);
+               })
+               .fail(function(jqXHR, textStatus, errorThrown) {
+                        // Display error message.
+                  var errorString = (errorThrown === "") ?
+                           "Error. " : errorThrown + " (" + jqXHR.status + "): ";
+                  errorString += (jqXHR.responseText === "") ?
+                           "" : (jQuery.parseJSON(jqXHR.responseText).message) ?
+                              jQuery.parseJSON(jqXHR.responseText).message :
+                                    jQuery.parseJSON(jqXHR.responseText).error.message;
+                        alert(errorString);
+               });
+            };
+         </script>
+      </body>
+      </html>
+
